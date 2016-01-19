@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Environment>
+		<drushBinaryLocation></drushBinaryLocation>
+		<defaultBackupDirectory></defaultBackupDirectory></Environment>
+	
+	<Sites><Site sitePathRoot="/var/www-site1/html">
+	<backupDirectory></backupDirectory></Site>
+		<Site sitePathRoot="/var/www/site2/html">
+			<BackupDirectory>/var/backups/site2</BackupDirectory></Site></Sites></Configuration>
